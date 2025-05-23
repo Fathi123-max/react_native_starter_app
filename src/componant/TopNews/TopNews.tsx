@@ -1,5 +1,6 @@
-import { MainStackParamList } from "@/src/navgation/MainStack";
 import { ScreenNames } from "@/src/navgation/ScreenNames";
+import { StackNames } from "@/src/navgation/StackNames";
+import { ShardStackParamList } from "@/src/navgation/Stacks/ShardStack/ShardStack";
 import { NavigationProp, useNavigation } from "@react-navigation/native";
 import React, { useEffect, useState } from "react";
 import {
@@ -16,7 +17,7 @@ import styles from "./styles";
 const TopNews = () => {
   const [news, setNews] = useState<ArticalType[]>([]);
   const navigation =
-    useNavigation<NavigationProp<MainStackParamList, ScreenNames.Home>>();
+    useNavigation<NavigationProp<ShardStackParamList, ScreenNames.Article>>();
 
   useEffect(() => {
     get(
@@ -26,7 +27,10 @@ const TopNews = () => {
   }, []);
 
   const navigateToArticle = (item: ArticalType) => {
-    navigation.navigate(ScreenNames.Article, { article: item });
+    navigation.navigate(StackNames.Shard, {
+      screen: ScreenNames.Article,
+      params: { article: item },
+    });
   };
 
   const TopNewsCard = ({

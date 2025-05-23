@@ -1,4 +1,3 @@
-import { Ionicons } from "@expo/vector-icons";
 import React from "react";
 import {
   Image,
@@ -10,11 +9,11 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-import { MainStackParamList } from "@/src/navgation/MainStack";
 import { ScreenNames } from "@/src/navgation/ScreenNames";
+import { MainStackParamList } from "@/src/navgation/Stacks/MainStack";
 import { RouteProp, useNavigation, useRoute } from "@react-navigation/native";
+import Icon from "react-native-vector-icons/FontAwesome";
 import { styles } from "./styles";
-
 export default function ArticleScreen() {
   const navigation = useNavigation();
   const param = useRoute<RouteProp<MainStackParamList, ScreenNames.Article>>();
@@ -29,7 +28,7 @@ export default function ArticleScreen() {
             onPress={() => navigation.goBack()}
             style={styles.backButton}
           >
-            <Text style={styles.backButtonText}>Go Back</Text>
+            <Icon name="arrow-left" size={24} color="#333" />
           </TouchableOpacity>
         </View>
       </SafeAreaView>
@@ -48,7 +47,7 @@ export default function ArticleScreen() {
             onPress={() => navigation.goBack()}
             style={styles.backButton}
           >
-            <Ionicons name="arrow-back" size={24} color="#333" />
+            <Icon name="arrow-left" size={24} color="#333" />
           </TouchableOpacity>
         </View>
 

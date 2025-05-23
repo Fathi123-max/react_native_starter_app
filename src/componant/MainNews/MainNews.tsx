@@ -7,8 +7,8 @@ import {
   View,
 } from "react-native";
 
-import { MainStackParamList } from "@/src/navgation/MainStack";
 import { ScreenNames } from "@/src/navgation/ScreenNames";
+import { MainStackParamList } from "@/src/navgation/Stacks/MainStack";
 import { ArticalType } from "@/src/types/ArticleType";
 import { get } from "@/src/utils/helpers/apiService";
 import { NavigationProp, useNavigation } from "@react-navigation/native";

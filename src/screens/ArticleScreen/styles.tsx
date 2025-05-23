@@ -1,3 +1,4 @@
+import fontFamily from "@/src/utils/helpers/constatnts";
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
@@ -40,21 +41,21 @@ export const styles = StyleSheet.create({
     fontWeight: "bold",
     marginBottom: 16,
     color: "#333",
-    fontFamily: "Cairo-Bold",
+    fontFamily: fontFamily.bold,
   },
   description: {
     fontSize: 18,
     lineHeight: 26,
     marginBottom: 24,
     color: "#444",
-    fontFamily: "Cairo-Regular",
+    fontFamily: fontFamily.regular,
   },
   body: {
     fontSize: 16,
     lineHeight: 24,
     color: "#555",
     marginBottom: 24,
-    fontFamily: "Cairo-Regular",
+    fontFamily: fontFamily.regular,
   },
   metaContainer: {
     borderTopWidth: 1,
@@ -66,11 +67,11 @@ export const styles = StyleSheet.create({
     fontSize: 14,
     color: "#666",
     marginBottom: 4,
-    fontFamily: "Cairo-Regular",
+    fontFamily: fontFamily.regular,
   },
   date: {
     fontStyle: "italic",
-    fontFamily: "Cairo-Regular",
+    fontFamily: fontFamily.regular,
   },
   sourceButton: {
     backgroundColor: "#1a73e8",
@@ -83,6 +84,6 @@ export const styles = StyleSheet.create({
     color: "white",
     fontWeight: "600",
     fontSize: 16,
-    fontFamily: "Cairo-Regular",
+    fontFamily: fontFamily.regular,
   },
 });
