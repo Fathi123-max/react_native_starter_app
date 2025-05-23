@@ -9,7 +9,6 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-
 // Mock data for favorites
 const favorites = [
   {
@@ -160,5 +159,10 @@ const styles = StyleSheet.create({
     color: "#8E8E93",
     marginTop: 8,
     textAlign: "center",
+  },
+  addText: {
+    fontSize: 16,
+    fontWeight: "600",
+    color: "#000000",
   },
 });
