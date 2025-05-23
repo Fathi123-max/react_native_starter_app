@@ -17,7 +17,7 @@ export default function MainStack() {
       />
       <Stack.Screen
         options={{ headerShown: false }}
-        name={StackNames.Main}
+        name={StackNames.Tabs}
         component={TapsStack}
       />
       <Stack.Screen
@@ -31,6 +31,6 @@ export default function MainStack() {
 
 export type MainStackParamList = {
   [StackNames.Auth]: undefined;
-  [StackNames.Main]: undefined;
+  [StackNames.Tabs]: undefined;
   [StackNames.Shard]: undefined;
 };
