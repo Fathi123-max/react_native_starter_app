@@ -3,23 +3,11 @@ import HomeScreen from "@/src/screens/HomeScreen/HomeScreen";
 import { Ionicons } from "@expo/vector-icons";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import React from "react";
-import { Platform, StyleSheet, Text, View } from "react-native";
+import { Platform, StyleSheet, View } from "react-native";
 import { Colors } from "react-native/Libraries/NewAppScreen";
 import { ScreenNames } from "../../ScreenNames";
 
 const Tab = createBottomTabNavigator<TapsStackParamList>();
-
-const CustomTabBarLabel = ({
-  focused,
-  label,
-}: {
-  focused: boolean;
-  label: string;
-}) => (
-  <Text style={[styles.tabLabel, focused ? styles.tabLabelFocused : null]}>
-    {label}
-  </Text>
-);
 
 const CustomTabBarIcon = ({
   focused,
