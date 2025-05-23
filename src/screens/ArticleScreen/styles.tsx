@@ -40,18 +40,21 @@ export const styles = StyleSheet.create({
     fontWeight: "bold",
     marginBottom: 16,
     color: "#333",
+    fontFamily: "Cairo-Bold",
   },
   description: {
     fontSize: 18,
     lineHeight: 26,
     marginBottom: 24,
     color: "#444",
+    fontFamily: "Cairo-Regular",
   },
   body: {
     fontSize: 16,
     lineHeight: 24,
     color: "#555",
     marginBottom: 24,
+    fontFamily: "Cairo-Regular",
   },
   metaContainer: {
     borderTopWidth: 1,
@@ -63,9 +66,11 @@ export const styles = StyleSheet.create({
     fontSize: 14,
     color: "#666",
     marginBottom: 4,
+    fontFamily: "Cairo-Regular",
   },
   date: {
     fontStyle: "italic",
+    fontFamily: "Cairo-Regular",
   },
   sourceButton: {
     backgroundColor: "#1a73e8",
@@ -78,5 +83,6 @@ export const styles = StyleSheet.create({
     color: "white",
     fontWeight: "600",
     fontSize: 16,
+    fontFamily: "Cairo-Regular",
   },
 });

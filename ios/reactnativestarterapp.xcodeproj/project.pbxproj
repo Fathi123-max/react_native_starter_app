@@ -8,24 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		188F90CA501746089B2ABE06 /* react-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0CB1A840DD45FBAF8A4FF9 /* react-logo@2x.png */; };
+		3D78E4FA6F71406582BD02AD /* Cairo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 473D341ECC2A4457A497380F /* Cairo-ExtraBold.ttf */; };
+		3DA1CAF4A9344D3481159772 /* splash-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E0EEF2FF401464BA49E9786 /* splash-icon.png */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		46C64E07014E42A9B01EE0CE /* Cairo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46CAA39A3A224681A0939D2F /* Cairo-Medium.ttf */; };
 		52B12BFA1736416AE761EC1E /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADED0795A9EC3F80C0E3AEF /* ExpoModulesProvider.swift */; };
+		5B194478EC8144458E1C0AC3 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66CB1C8ACA534E06835D02EA /* Cairo-Regular.ttf */; };
+		5F5C5B3A780D4E61BEACC232 /* Cairo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABF42AF5BB144A699C1A9740 /* Cairo-Light.ttf */; };
+		628D1A60A5664E5292C7254D /* react-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D738F3EFCA64351B9231CEF /* react-logo.png */; };
+		6FF33D1DF79042FF8A79F376 /* favicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D8B519A59AA4816A85D821D /* favicon.png */; };
 		72765AEBFF050397E59E4A1B /* libPods-reactnativestarterapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 628A7AAB617079AAD9273A90 /* libPods-reactnativestarterapp.a */; };
+		A7B7E2B88ACD4C468BD30D45 /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72A06F72C03A4C0EBD865362 /* Cairo-Bold.ttf */; };
+		B31C7A5A29104DF988649771 /* adaptive-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA3D00C887D4BA69764D4EA /* adaptive-icon.png */; };
+		B5F094B649204D1C8FEE6752 /* partial-react-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A3393FB1CA06469FA6B9807F /* partial-react-logo.png */; };
+		B924AA79B0E44AEFB8988795 /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C84CC170D8C4DE5B74A13CC /* Cairo-SemiBold.ttf */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		C012C082D67D481AB99CA7EC /* Cairo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 871F27C6D6A949948E14DD33 /* Cairo-Black.ttf */; };
+		C96ABC9D775141D584F871A8 /* Cairo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E55DC04F93B4507B51D923F /* Cairo-ExtraLight.ttf */; };
 		CA9575BA31B52F1B8D5EA7A5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2B459DD05EFB66D1187EE742 /* PrivacyInfo.xcprivacy */; };
+		D668023815BC4D638FBC1C21 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 429889FA06FC417F9FC5B4AC /* icon.png */; };
+		D9BD061B3EA94E14AB7B4870 /* SpaceMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC0C7BC9072B4DA5AF67EB0F /* SpaceMono-Regular.ttf */; };
+		DF761306806C4F68906D91D9 /* react-logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5228544906E54AAD88B07479 /* react-logo@3x.png */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DA3D00C887D4BA69764D4EA /* adaptive-icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "adaptive-icon.png"; path = "../assets/images/adaptive-icon.png"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* reactnativestarterapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactnativestarterapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = reactnativestarterapp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reactnativestarterapp/Info.plist; sourceTree = "<group>"; };
 		13CC2E128AE1B8275EA1E15B /* Pods-reactnativestarterapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativestarterapp.release.xcconfig"; path = "Target Support Files/Pods-reactnativestarterapp/Pods-reactnativestarterapp.release.xcconfig"; sourceTree = "<group>"; };
+		1E0EEF2FF401464BA49E9786 /* splash-icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "splash-icon.png"; path = "../assets/images/splash-icon.png"; sourceTree = "<group>"; };
+		1E55DC04F93B4507B51D923F /* Cairo-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cairo-ExtraLight.ttf"; path = "../assets/fonts/Cairo-ExtraLight.ttf"; sourceTree = "<group>"; };
 		2B459DD05EFB66D1187EE742 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = reactnativestarterapp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		429889FA06FC417F9FC5B4AC /* icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = icon.png; path = ../assets/images/icon.png; sourceTree = "<group>"; };
+		46CAA39A3A224681A0939D2F /* Cairo-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cairo-Medium.ttf"; path = "../assets/fonts/Cairo-Medium.ttf"; sourceTree = "<group>"; };
+		473D341ECC2A4457A497380F /* Cairo-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cairo-ExtraBold.ttf"; path = "../assets/fonts/Cairo-ExtraBold.ttf"; sourceTree = "<group>"; };
+		5228544906E54AAD88B07479 /* react-logo@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "react-logo@3x.png"; path = "../assets/images/react-logo@3x.png"; sourceTree = "<group>"; };
+		5D738F3EFCA64351B9231CEF /* react-logo.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "react-logo.png"; path = "../assets/images/react-logo.png"; sourceTree = "<group>"; };
+		5D8B519A59AA4816A85D821D /* favicon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = favicon.png; path = ../assets/images/favicon.png; sourceTree = "<group>"; };
 		628A7AAB617079AAD9273A90 /* libPods-reactnativestarterapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactnativestarterapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CB1C8ACA534E06835D02EA /* Cairo-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cairo-Regular.ttf"; path = "../assets/fonts/Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		6C84CC170D8C4DE5B74A13CC /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cairo-SemiBold.ttf"; path = "../assets/fonts/Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		72A06F72C03A4C0EBD865362 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cairo-Bold.ttf"; path = "../assets/fonts/Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		871F27C6D6A949948E14DD33 /* Cairo-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cairo-Black.ttf"; path = "../assets/fonts/Cairo-Black.ttf"; sourceTree = "<group>"; };
 		9ADED0795A9EC3F80C0E3AEF /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-reactnativestarterapp/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		A3393FB1CA06469FA6B9807F /* partial-react-logo.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "partial-react-logo.png"; path = "../assets/images/partial-react-logo.png"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = reactnativestarterapp/SplashScreen.storyboard; sourceTree = "<group>"; };
+		ABF42AF5BB144A699C1A9740 /* Cairo-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Cairo-Light.ttf"; path = "../assets/fonts/Cairo-Light.ttf"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
+		BC0C7BC9072B4DA5AF67EB0F /* SpaceMono-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SpaceMono-Regular.ttf"; path = "../assets/fonts/SpaceMono-Regular.ttf"; sourceTree = "<group>"; };
+		BC0CB1A840DD45FBAF8A4FF9 /* react-logo@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "react-logo@2x.png"; path = "../assets/images/react-logo@2x.png"; sourceTree = "<group>"; };
 		D542067C665EF4785DCD3A96 /* Pods-reactnativestarterapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativestarterapp.debug.xcconfig"; path = "Target Support Files/Pods-reactnativestarterapp/Pods-reactnativestarterapp.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = reactnativestarterapp/AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +111,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		55F8C95346E34ADD93D89A76 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				871F27C6D6A949948E14DD33 /* Cairo-Black.ttf */,
+				72A06F72C03A4C0EBD865362 /* Cairo-Bold.ttf */,
+				473D341ECC2A4457A497380F /* Cairo-ExtraBold.ttf */,
+				1E55DC04F93B4507B51D923F /* Cairo-ExtraLight.ttf */,
+				ABF42AF5BB144A699C1A9740 /* Cairo-Light.ttf */,
+				46CAA39A3A224681A0939D2F /* Cairo-Medium.ttf */,
+				66CB1C8ACA534E06835D02EA /* Cairo-Regular.ttf */,
+				6C84CC170D8C4DE5B74A13CC /* Cairo-SemiBold.ttf */,
+				BC0C7BC9072B4DA5AF67EB0F /* SpaceMono-Regular.ttf */,
+				0DA3D00C887D4BA69764D4EA /* adaptive-icon.png */,
+				5D8B519A59AA4816A85D821D /* favicon.png */,
+				429889FA06FC417F9FC5B4AC /* icon.png */,
+				A3393FB1CA06469FA6B9807F /* partial-react-logo.png */,
+				5D738F3EFCA64351B9231CEF /* react-logo.png */,
+				BC0CB1A840DD45FBAF8A4FF9 /* react-logo@2x.png */,
+				5228544906E54AAD88B07479 /* react-logo@3x.png */,
+				1E0EEF2FF401464BA49E9786 /* splash-icon.png */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +152,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				19AD69CA394E39D3954A5244 /* Pods */,
 				ADD5F2F7A966A4123FE3CE94 /* ExpoModulesProviders */,
+				55F8C95346E34ADD93D89A76 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +257,23 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
 				CA9575BA31B52F1B8D5EA7A5 /* PrivacyInfo.xcprivacy in Resources */,
+				C012C082D67D481AB99CA7EC /* Cairo-Black.ttf in Resources */,
+				A7B7E2B88ACD4C468BD30D45 /* Cairo-Bold.ttf in Resources */,
+				3D78E4FA6F71406582BD02AD /* Cairo-ExtraBold.ttf in Resources */,
+				C96ABC9D775141D584F871A8 /* Cairo-ExtraLight.ttf in Resources */,
+				5F5C5B3A780D4E61BEACC232 /* Cairo-Light.ttf in Resources */,
+				46C64E07014E42A9B01EE0CE /* Cairo-Medium.ttf in Resources */,
+				5B194478EC8144458E1C0AC3 /* Cairo-Regular.ttf in Resources */,
+				B924AA79B0E44AEFB8988795 /* Cairo-SemiBold.ttf in Resources */,
+				D9BD061B3EA94E14AB7B4870 /* SpaceMono-Regular.ttf in Resources */,
+				B31C7A5A29104DF988649771 /* adaptive-icon.png in Resources */,
+				6FF33D1DF79042FF8A79F376 /* favicon.png in Resources */,
+				D668023815BC4D638FBC1C21 /* icon.png in Resources */,
+				B5F094B649204D1C8FEE6752 /* partial-react-logo.png in Resources */,
+				628D1A60A5664E5292C7254D /* react-logo.png in Resources */,
+				188F90CA501746089B2ABE06 /* react-logo@2x.png in Resources */,
+				DF761306806C4F68906D91D9 /* react-logo@3x.png in Resources */,
+				3DA1CAF4A9344D3481159772 /* splash-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
